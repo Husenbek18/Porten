@@ -1,0 +1,150 @@
+.footer {
+  background: url(../img/footerbg.svg) no-repeat top / cover;
+
+}
+
+.footer__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.footer__itim {
+  width: 30%;
+  color: #fff;
+
+}
+
+.footer__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+
+.footer-bottom {
+  background: #0F0F0F;
+}
+
+.footer-bottom__copy {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #D0D0D0;
+  padding: 17px 0;
+}
+
+footer__text {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.footer__menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__link {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #D0D0D0;
+  padding: 10px 20px;
+  background: #0F0F0F;
+  transition: 500ms;
+}
+
+.footer__form {
+  width: 100%;
+  margin-top: 35px;
+}
+
+.footer__label {
+  width: 100%;
+  height: 42px;
+  display: flex;
+}
+
+.footer__inp {
+  width: 60%;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 8px 20px;
+  color: #fff;
+}
+
+.footer__inp::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footer__btn {
+  width: 40%;
+  background: #0F0F0F;
+  padding: 8px 10px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.footer__link:hover,
+.footer__btn:hover{
+  background: rgb(129, 6, 6);
+}
+
+
+@media (max-width: 991px) {
+  .footer__wrapper{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px 0;
+  }
+
+  .footer__itim{
+   width: 40%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .footer__wrapper{
+    padding: 40px 0;
+    gap: 25px;
+  }
+
+  .footer__itim{
+   width: 70%;
+  }
+
+  .footer__title{
+    margin-bottom: 15px;
+  }
+
+}
+
+
+
+
+@media (max-width: 575px) {
+  .footer__itim{
+   width: 100%;
+  }
+
+}
